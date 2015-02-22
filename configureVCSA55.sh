@@ -1,4 +1,5 @@
 # Author: William Lam
+# Modified By: Jason Fiset - Site Specific changes.
 # Site: www.virtuallyghetto.com
 # Reference: http://www.virtuallyghetto.com/2015/01/completely-automating-vcenter-server-appliance-vcsa-5-5-configurations.html
 
@@ -9,10 +10,10 @@ SSO_ADMINISTRATOR_PASSWORD=vmware
 
 # Join Active Directory (following 5 variables required)
 JOIN_AD=0
-AD_DOMAIN=primp-industries.com
+AD_DOMAIN=jmftech.local
 AD_USER=administrator
 AD_PASS=MYSUPERDUPERSTRONGPASSWORD
-VCENTER_HOSTNAME=vcenter55-2.primp-industries.com
+VCENTER_HOSTNAME=VAN-VCSA-01.jmftech.local
 
 # Enable NTP
 ENABLE_NTP=0
